@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="https://media.licdn.com/dms/image/v2/C560BAQEiVgo_ejq-mw/company-logo_200_200/company-logo_200_200/0/1673395435709/kalyanithub_logo?e=2147483647&v=beta&t=bwfQ3ne-wBuxkRHKyPZLAMbApJiyzWnx067FrjJ1bCI" />
+    <title>Forms</title>
+</head>
+<body>
+    <table>
+    <form>
+        <tr>
+            <td><label for="name">Name</label></td>
+            <td><input type="text" id="name" placeholder="Enter Your Name" required/></td>
+        </tr>
+        <tr>
+            <td><label for="">Age</label></td>
+            <td><input type="text" placeholder="Enter your age" min="0" max="9" size="4"/></td>
+        </tr>
+        <tr>
+            <td><label for="">email</label></td>
+            <td><input type="email" placeholder="Enter your Email ID"/></td>
+        </tr>
+        <br/>
+        
+        <input type="password" placeholder="Enter your Password"/>
+        <input type="tel" placeholder="Enter your number" minlength="5" maxlength="10"/>
+        <br/>
+        <input type="checkbox" />
+        <label for="">Telugu</label>
+        <input type="checkbox" />
+        <label for="">Hindi</label>
+        <input type="checkbox" />
+        <label for="">English</label>
+        <br/>
+
+
+        <input type="radio" name="gender"/>
+        <label for="">Male</label>
+        <input type="radio" name="gender"/>
+        <label for="">Female</label>
+        <input type="file" multiple/>
+        <input type="date" />
+        <input type="datetime-local" />
+        <input type="range" /><br>
+        <label for="">Country</label>
+        <input type="text" value="India" readonly>
+        <br>
+        <label for="">Address</label>
+        <textarea cols="30" rows="10"></textarea>
+        <br>
+        
+        <label for="">State</label>
+        <select name="" id="">
+            <option value="">Andhra Pradesh</option>
+            <option value="">Madhya Pradesh</option>
+        </select>
+        <button>Click me</button>
+        <input type="button" value="Click me also" />
+        <input type="submit" />
+        <input type="reset" />
+    </form>
+</table>
+
+</body>
+</html>

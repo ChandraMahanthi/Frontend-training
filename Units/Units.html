@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Units</title>
+    <style>
+        *
+        {
+            margin: 0;
+            padding: 0;
+        }
+        :root
+        {
+            font-size:20px;
+        }
+        body
+        {
+            border: 5px solid blue;
+        }
+        #outer
+        {
+            border: 5px solid green;
+            /* width: 50%; */
+        }
+        #inner
+        {
+            font-weight: 900;
+            border: 5px solid red;
+            /* width: 75%; */
+            font-size: 50px;
+        }
+        h1
+        {
+            border: 5px solid black;
+            font-size:3rem;
+        }
+    </style>
+</head>
+<body>
+    <div id="outer">
+        grand parent
+        <div id="inner">
+            parent
+            <h1>Child</h1>
+        </div>
+    </div>
+</body>
+</html>
+
+Viewport units:- Screen
+
+vw   ==> viewport Width
+vh   ==> viewport Height
+vmin ==> viewport Minimum
+vmax ==> viewport maximum
+
+responsive web design :- making our web application DEVICE INDEPENDENT
+
+100vw = 800px
+1vw = 8px
+100vh = 680px
+1vh = 6.8px
+
+vmin ==> minimum of both = 6.8px
+vmax ==> maximum of both = 8px
+
+vmin ==> 
+vw < vh == vw
+vh < vw == vh
+
+vmax ==> 
+
+vw < vh == vh
+vh < vw == vw
